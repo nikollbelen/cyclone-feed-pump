@@ -59,9 +59,9 @@ const Menu = ({ items, menuIconImage }) => {
       >
         <img src={menuIconImage} alt="Menu Icon" />
         <MenuDescription show={showDescription}>
-        <p className='en'>Zn Concentrate Filter</p><p className='es'>Filtro de Concentrado de Zinc</p>
+        <p className='en'>Cyclone Feed Pump</p><p className='es'>Bomba de Alimentación del Ciclón</p>
         </MenuDescription>
-        <Ayuda className="content content1" style={{ zIndex: 30 }}><p className='en'>Menu</p><p className='es'>Menu</p></Ayuda>
+        <Ayuda className="content content1" style={{ zIndex: 30, display: "none" }}><p className='en'>Menu</p><p className='es'>Menu</p></Ayuda>
       </MenuIcon>
       <MenuItems open={open}>
         {items.map((item, index) => (
